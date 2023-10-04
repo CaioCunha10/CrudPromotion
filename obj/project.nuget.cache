@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2WUJyqNPWXI2LcxdOvheFozmL0c5PZcOKlLLQxmra6oOsYtZECsngp2vC6/Qx0HXog63TWq/26LK2KRZhy8qmg==",
+  "dgSpecHash": "dVXVDvXPDQSwxuK9HaOti65zDrTDohp0Phm9r2MeazIIK86U3Ey+0+vxWJ3pb34aequxOT3Vrkzj1kiJoxO6ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\CrudSundayTst\\CrudSundayTst.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\PROJD\\CrudPromotion\\CrudSundayTst.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

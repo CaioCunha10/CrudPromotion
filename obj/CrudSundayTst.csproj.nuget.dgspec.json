@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\CrudSundayTst\\CrudSundayTst.csproj": {}
+    "C:\\Users\\Lenovo\\Documents\\PROJD\\CrudPromotion\\CrudSundayTst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\CrudSundayTst\\CrudSundayTst.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\PROJD\\CrudPromotion\\CrudSundayTst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\CrudSundayTst\\CrudSundayTst.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\PROJD\\CrudPromotion\\CrudSundayTst.csproj",
         "projectName": "CrudSundayTst",
-        "projectPath": "C:\\Users\\Lenovo\\CrudSundayTst\\CrudSundayTst.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\PROJD\\CrudPromotion\\CrudSundayTst.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\CrudSundayTst\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\PROJD\\CrudPromotion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

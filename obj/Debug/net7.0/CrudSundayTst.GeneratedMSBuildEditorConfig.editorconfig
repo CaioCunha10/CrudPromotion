@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CrudSundayTst
 build_property.RootNamespace = CrudSundayTst
-build_property.ProjectDir = C:\Users\Lenovo\CrudSundayTst\
+build_property.ProjectDir = C:\Users\Lenovo\Documents\PROJD\CrudPromotion\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lenovo\CrudSundayTst
+build_property.MSBuildProjectDirectory = C:\Users\Lenovo\Documents\PROJD\CrudPromotion
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lenovo/CrudSundayTst/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Error.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Index.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Premiums/Create.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Premiums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlbWl1bXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Premiums/Delete.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Premiums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlbWl1bXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Premiums/Details.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Premiums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlbWl1bXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Premiums/Edit.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Premiums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlbWl1bXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Premiums/Index.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Premiums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlbWl1bXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Privacy.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Studentss/Create.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Studentss/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Studentss/Delete.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Studentss/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Studentss/Details.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Studentss/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Studentss/Edit.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Studentss/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Studentss/Index.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Studentss/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/_ViewImports.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/_ViewStart.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/CrudSundayTst/Pages/Shared/_Layout.cshtml]
+[C:/Users/Lenovo/Documents/PROJD/CrudPromotion/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-eetebxmih1
