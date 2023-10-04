@@ -40,8 +40,8 @@ Este projeto é licenciado sob a Licença MIT.
 <body>
 
   <header>
-    <h1>Aplicação de Descontos para Estudantes</h1>
-    <h2>Uma aplicação C# para concessão de descontos a estudantes</h2>
+    <h1 id="title">Aplicação de Descontos para Estudantes</h1>
+    <h2 id="subtitle">Uma aplicação C# para concessão de descontos a estudantes</h2>
   </header>
 
   <section>
@@ -88,17 +88,17 @@ body {
 }
 
 header {
-  background-color: #222;
+  background-color: #111;
   color: #fff;
   padding: 20px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 section {
@@ -123,6 +123,6 @@ a {
 .image {
   max-width: 100%;
   height: auto;
+  border: 1px solid #ccc;
 }
-
 
