@@ -1,0 +1,26 @@
+/* Barra de navegação */
+.navbar {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+/* Menu */
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Botões */
+.btn {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+}

@@ -1,0 +1,48 @@
+@page
+@model CrudSundayTst.Pages_Premiums.IndexModel
+
+@{
+    ViewData["Title"] = "Lista de Usuários Premium";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Usuários Premium</h1>
+
+        <p>
+            <a asp-page="Create" class="btn btn-primary">Criar um Novo Usuário Premium</a>
+        </p>
+
+        <div class="row">
+            @foreach (var item in Model.Premium)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Title</h5>
+                            <p class="card-text">Nome: @item.Student.Nome</p>
+                            <p class="card-text">Email: @item.Student.Email</p>
+                        </div>
+                        <div class="card-footer">
+                            <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                            <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info">Detalhes</a>
+                            <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

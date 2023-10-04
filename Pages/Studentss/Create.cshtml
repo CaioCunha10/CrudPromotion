@@ -1,0 +1,53 @@
+@page
+@model CrudSundayTst.Pages_Studentss.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    /* Estilos para o formulário de criação */
+    .create-form {
+        background-color: #222; /* Cor de fundo escura para o formulário */
+        color: #fff; /* Cor do texto branco */
+        padding: 20px; /* Espaçamento interno */
+        border-radius: 10px; /* Borda arredondada */
+    }
+
+    /* Estilo para destacar o campo de e-mail */
+    .email-highlight {
+        font-weight: bold; /* Deixa o texto em negrito */
+        color: #007bff; /* Define a cor azul para o texto */
+    }
+</style>
+
+<h1>Cadastrar</h1>
+
+<h4>Estidamte</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" class="create-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Student.Nome" class="control-label"></label>
+                <input asp-for="Student.Nome" class="form-control" />
+                <span asp-validation-for="Student.Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.Email" class="control-label email-highlight"></label>
+                <input asp-for="Student.Email" class="form-control" />
+                <span asp-validation-for="Student.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+            
+           <div>
+         <a asp-page="./Index" class="btn btn-danger">
+                           <i class="fas fa-arrow-left"></i> Voltar</a>
+           </div>
+        </form>
+    </div>
+</div>
+

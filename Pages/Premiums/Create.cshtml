@@ -1,0 +1,55 @@
+@page
+@model CrudSundayTst.Pages_Premiums.CreateModel
+@using CrudSundayTst.Data
+
+@{
+    ViewData["Title"] = "Cadastro de Premium ou Promoções";
+
+    ViewData["Students"] = new List<CrudSundayTst.Models.Student>();
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-dark">Cadastro de Premium ou Promoções</h1>
+
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Premium.Title" class="control-label">Título</label>
+                <input asp-for="Premium.Title" class="form-control" placeholder="Digite o título" />
+                <span asp-validation-for="Premium.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Premium.StartDate" class="control-label">Data de Início</label>
+                <input asp-for="Premium.StartDate" class="form-control" type="date" />
+                <span asp-validation-for="Premium.StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Premium.EndDate" class="control-label">Data de Término</label>
+                <input asp-for="Premium.EndDate" class="form-control" type="date" />
+                <span asp-validation-for="Premium.EndDate" class="text-danger"></span>
+            </div>
+               <div class="form-group">
+                       <label asp-for="Premium.StudentId" class="control-label"></label>
+                       <select asp-for="Premium.StudentId" class="form-control" asp-items="ViewBag.StudentId"></select>
+                       <span asp-validation-for="Premium.StudentId" class="text-danger"></span>
+                   </div>
+
+            <button type="submit" class="btn btn-dark" disabled>Salvar</button>
+              <a asp-page="./Index" class="btn btn-danger">
+                                <i class="fas fa-arrow-left"></i> Voltar</a>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.css"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@page
+@model CrudSundayTst.Pages_Studentss.IndexModel
+
+@{
+    ViewData["Title"] = "Lista de Usuários";
+}
+
+<style>
+    .btn-criar {
+        font-size: 18px; /* Tamanho do texto dos botões */
+        background-color: #000; /* Cor de fundo preto para os botões */
+        color: #fff; /* Cor do texto branco para os botões */
+        margin-right: 5px; /* Espaço entre os botões */
+    }
+
+    .btn-action {
+        font-size: 18px; /* Tamanho do texto dos botões */
+        background-color: #000; /* Cor de fundo preto para os botões */
+        color: #fff; /* Cor do texto branco para os botões */
+        margin-right: 5px; /* Espaço entre os botões */
+    }
+
+    /* Estilo para destacar o campo de email */
+    .email-highlight {
+        font-weight: bold; /* Deixa o texto em negrito */
+        color: #007bff; /* Define a cor azul para o texto */
+    }
+
+    /* Estilo para destacar o nome completo */
+    .name-highlight {
+        font-weight: bold; /* Deixa o texto em negrito */
+        color: #007bff; /* Define a cor azul para o texto */
+    }
+</style>
+
+<h1>Lista de Usuários</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-criar"><i class="fas fa-plus"></i> Criar Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Student[0].Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Student[0].Email)
+            </th>
+            <th>Ações</th> <!-- Nome da coluna de ações -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Student) {
+        <tr>
+            <td class="name-highlight">
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td class="email-highlight">
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-action"><i class="fas fa-edit"></i> Editar</a>
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-action"><i class="fas fa-info-circle"></i> Detalhes</a>
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-action"><i class="fas fa-trash-alt"></i> Excluir</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

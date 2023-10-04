@@ -1,0 +1,36 @@
+@page
+@model CrudSundayTst.Pages_Studentss.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Deletar</h1>
+
+<h3>Deseja deletar este usuário?</h3>
+<div>
+    <h4>Estudante</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Student.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Student.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Student.Email)
+        </dd>
+    </dl>
+    
+    <form method="post">
+     
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+           <a asp-page="./Index" class="btn btn-danger">
+                             <i class="fas fa-arrow-left"></i> Voltar</a>
+    </form>
+</div>
+
